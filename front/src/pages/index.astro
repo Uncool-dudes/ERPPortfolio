@@ -1,6 +1,10 @@
 ---
 import '@/styles/globals.css'
-import { Button } from "@/components/ui/button"
+import {
+  ResizableHandle,
+  ResizablePanel,
+  ResizablePanelGroup,
+} from "@/components/ui/resizable"
 ---
 
 <html lang="en">
@@ -12,6 +16,10 @@ import { Button } from "@/components/ui/button"
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<ResizablePanelGroup direction="horizontal">
+			<ResizablePanel>One</ResizablePanel>
+			<ResizableHandle />
+			<ResizablePanel>Two</ResizablePanel>
+		  </ResizablePanelGroup>
 	</body>
 </html>
