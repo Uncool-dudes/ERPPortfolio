@@ -1,0 +1,12 @@
+/Users/uncool/ERP/back/target/debug/deps/libsqlx-27ba81242eb5f3a5.rmeta: /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/lib.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/any/mod.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/macros/mod.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/ty_match.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/spec_error.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/lib.md /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/macros/test.md /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/any/install_drivers_note.md
+
+/Users/uncool/ERP/back/target/debug/deps/sqlx-27ba81242eb5f3a5.d: /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/lib.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/any/mod.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/macros/mod.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/ty_match.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/spec_error.rs /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/lib.md /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/macros/test.md /Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/any/install_drivers_note.md
+
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/lib.rs:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/any/mod.rs:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/macros/mod.rs:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/ty_match.rs:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/spec_error.rs:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/lib.md:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/macros/test.md:
+/Users/uncool/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sqlx-0.8.2/src/any/install_drivers_note.md:
