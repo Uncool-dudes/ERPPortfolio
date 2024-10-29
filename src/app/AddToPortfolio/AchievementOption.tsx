@@ -1,9 +1,3 @@
-// export default function Achievement() {
-//     return (
-        
-//     );
-// }
-
 'use client'
 
 import { useState } from 'react'

@@ -1,6 +1,6 @@
 export default function ProjectOption() {
     return (
-      <fieldset className="px-1.5">
+      <fieldset className="px-3 mt-2">
         <legend className="text-sm font-medium text-foreground">Select Type</legend>
         <div className="mt-2 space-y-6 sm:flex sm:items-center sm:space-x-5 sm:space-y-0">
           
