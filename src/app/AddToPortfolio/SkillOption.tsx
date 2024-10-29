@@ -1,9 +1,3 @@
-// export default function Skill() {
-//     return (
-        
-//     );
-// }
-
 'use client'
 
 import { useState } from 'react'
@@ -17,7 +11,7 @@ const experienceLevels = [
 ]
 
 export default function SkillOption() {
-  const [selected, setSelected] = useState(null) // Start with null for placeholder
+  const [selected, setSelected] = useState(null) 
 
   return (
     <div className='p-3'>
@@ -27,7 +21,7 @@ export default function SkillOption() {
         <ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-foreground shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm">
           <span className="inline-flex w-full truncate">
             <span className="truncate">
-              {selected ? selected.levelName : 'Select'} {/* Show "Select" if nothing is selected */}
+              {selected ? selected.levelName : 'Select'} 
             </span>
             {selected && (
               <span className="ml-2 truncate text-gray-500">
