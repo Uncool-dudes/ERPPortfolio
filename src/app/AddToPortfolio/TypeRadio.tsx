@@ -1,3 +1,9 @@
+import { ChangeEvent } from 'react';
+
+interface ChildComponentProps {
+  onSendData: (data: string) => void;
+}
+
 const portfolioItemType = [
   { type: "Skill", name: "Skill" },
   { type: "Achievement", name: "Achievement" },
@@ -5,7 +11,10 @@ const portfolioItemType = [
   { type: "ProfessionalExp", name: "Professional Experience" },
 ];
 
-export default function TypeRadio() {
+export default function TypeRadio({ onSendData }: ChildComponentProps) {
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    onSendData(e.target.value);
+  };
   return (
     <fieldset className="px-3" >
       <legend className="text-sm/6 text-foreground">Portfolio Item</legend>
@@ -17,7 +26,9 @@ export default function TypeRadio() {
               type="radio"
               name="itemType"
               id={itemType.type}
-              className="h-4 w-4 border-gray-300 text-blue-300 focus:ring-primary"
+              value={itemType.type}
+              onChange={handleChange}
+              className="h-4 w-4 form-radio accent-primary"
             />
             <label
               htmlFor={itemType.type}
