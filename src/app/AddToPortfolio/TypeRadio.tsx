@@ -17,7 +17,7 @@ const portfolioItemType = [
                 type="radio"
                 name="itemType"
                 id={itemType.type}
-                className="h-4 w-4 border-gray-300 text-primary focus:ring-primary"
+                className="h-4 w-4 border-gray-300 text-blue-300 focus:ring-primary"
               />
               <label htmlFor={itemType.type} className="ml-3 block text-sm/6 font-medium text-foreground">
                 {itemType.name}

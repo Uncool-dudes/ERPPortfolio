@@ -1,6 +1,7 @@
 import NameInput from "./NameInputBox";
 import EvidenceSelect from "./EvidenceSelect";
 import TypeRadio from "./TypeRadio";
+import OptionalFields from "./OptionalFields";
 export default function Add() {
   return (
     <div className="h-screen grid grid-cols-1 lg:grid-cols-2">
@@ -9,6 +10,7 @@ export default function Add() {
           <NameInput />
           <EvidenceSelect />
           <TypeRadio />
+          <OptionalFields />
         </div>
       </div>
       <div id="renderResume"></div>
