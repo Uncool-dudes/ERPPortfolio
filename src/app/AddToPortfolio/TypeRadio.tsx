@@ -1,6 +1,6 @@
 const portfolioItemType = [
     { type: 'Skill', name: 'Skill' },
-    { type: 'Achievement', name: 'Achievement)' },
+    { type: 'Achievement', name: 'Achievement' },
     { type: 'Project', name: 'Project' },
     { type: 'ProfessionalExp', name: 'Professional Experience' },
   ]
