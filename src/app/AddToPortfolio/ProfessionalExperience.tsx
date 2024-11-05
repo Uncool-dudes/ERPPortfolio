@@ -1,21 +1,27 @@
-'use client'
-import { useState } from 'react'
-import { Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
+"use client";
+import { useState } from "react";
+import {
+  Listbox,
+  ListboxButton,
+  ListboxOption,
+  ListboxOptions,
+} from "@headlessui/react";
+import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
 const ProfessionalExp = [
-  { levelName: 'idk1', levelType: 'Bruhh1' },
-  { levelName: 'idk2', levelType: 'Bruhh2' },
-  { levelName: 'idk3', levelType: 'Bruhh3' },
+  { levelName: "idk1", levelType: "Bruhh1" },
+  { levelName: "idk2", levelType: "Bruhh2" },
+  { levelName: "idk3", levelType: "Bruhh3" },
 ];
 
 export default function ProfessionalExperience() {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<{
+    levelName: string;
+    levelType: string;
+  } | null>(null);
 
   return (
     <div className="p-3">
-      
-      
       <div className="mb-4">
         <label
           htmlFor="EmployerName"
@@ -41,7 +47,7 @@ export default function ProfessionalExperience() {
             <ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-foreground shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm">
               <span className="inline-flex w-full truncate">
                 <span className="truncate">
-                  {selected ? selected.levelName : 'Select'}
+                  {selected ? selected.levelName : "Select"}
                 </span>
                 {selected && (
                   <span className="ml-2 truncate text-gray-500">
@@ -50,7 +56,10 @@ export default function ProfessionalExperience() {
                 )}
               </span>
               <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-                <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />
+                <ChevronUpDownIcon
+                  aria-hidden="true"
+                  className="h-5 w-5 text-gray-400"
+                />
               </span>
             </ListboxButton>
 

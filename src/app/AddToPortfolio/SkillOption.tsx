@@ -11,7 +11,7 @@ const experienceLevels = [
 ]
 
 export default function SkillOption() {
-  const [selected, setSelected] = useState(null) 
+  const [selected, setSelected] = useState<{ levelName: string; levelType: string } | null>(null)
 
   return (
     <div className='p-3'>

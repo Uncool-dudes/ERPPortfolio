@@ -9,7 +9,7 @@ export default function ProjectOption() {
               type="radio"
               name="itemType"
               id="hardware"
-              className="h-4 w-4 border-gray-300 text-blue-300 focus:ring-primary"
+              className="h-4 w-4 accent-primary"
             />
             <label
               htmlFor="hardware"
@@ -24,7 +24,7 @@ export default function ProjectOption() {
               type="radio"
               name="itemType"
               id="software"
-              className="h-4 w-4 border-gray-300 text-blue-300 focus:ring-primary"
+              className="h-4 w-4 accent-primary"
             />
             <label
               htmlFor="software"
